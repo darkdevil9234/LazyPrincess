@@ -24,10 +24,10 @@ Here is the help for my COMMANDS."""
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Lazy Princess is a Private source project. 
+- 🔥𝄟‌🦋⃟≛⃝🅰𝖗𝖕𝖎𝖙𝖆 🆂ɪɴɢʜ𝄟‌🦋⃟🌿 is a Private source project. 
 - For Paid Source - https://t.me/DwayneJohnsonl  
 
-<b>DEVS:</b>
+<b>DARK DEVIL 😈:</b>
 - <a href=https://t.me/DwayneJohnsonl>𝐁𝐞𝐬𝐭𝐢𝐞𝐬⋆⃝亗⋆ͥ⋆ͣ⋆ͫ𖣔ꠋꠋ🇩α𝗿𝗸 🇩єνιℓ☯️ꙮ๊๊</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -80,7 +80,7 @@ Here is the help for my COMMANDS."""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Lazy Princess
+these are the extra features of 🔥𝄟‌🦋⃟≛⃝🅰𝖗𝖕𝖎𝖙𝖆 🆂ɪɴɢʜ𝄟‌🦋⃟🌿
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>

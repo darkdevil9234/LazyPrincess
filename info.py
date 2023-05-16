@@ -26,7 +26,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5007198306').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL','-1001720584562')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -74,8 +74,8 @@ LAZY_YT_HANDLE = environ.get('LAZY_YT_HANDLE','cinemaa_boxoffice')  # WITHOUT @ 
 MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "Cinemaa_4_u") #[ without @ ]
 
 # Url Shortner
-URL_MODE = is_enabled((environ.get("URL_MODE","True")), False)
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'Tnlink.in') #Always use website url from api section 
+URL_MODE = is_enabled((environ.get("URL_MODE","True")), True)
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'Tnshort.net') #Always use website url from api section 
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '811e36e9822b8c445582837748258bc00f7c6117')
 LZURL_PRIME_USERS = [int(lazyurlers) if id_pattern.search(lazyurlers) else lazyurlers for lazyurlers in environ.get('LZURL_PRIME_USERS', '5007198306').split()]
 
